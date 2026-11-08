@@ -1,0 +1,16 @@
+[
+  {
+    "id": "new_project_content_detector_ui",
+    "mode": "new",
+    "story": "Create a React TypeScript UI that accepts text, runs a mocked AI-authorship assessment, and displays uncertainty without asserting certainty.",
+    "expected_paths": ["package.json", "src/App.tsx"],
+    "expected_text": ["analy", "mock"]
+  },
+  {
+    "id": "existing_repo_add_history",
+    "mode": "existing",
+    "story": "Enhance the existing content analyzer with a local analysis history panel without breaking the existing form.",
+    "expected_paths": ["package.json", "src/App.tsx"],
+    "expected_text": ["history"]
+  }
+]

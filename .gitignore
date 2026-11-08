@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+.venv/
+agent_audit.jsonl
+*.pyc
+.env*
+node_modules/
