@@ -1,0 +1,1 @@
+Enhance the existing frontend project: add an analysis history section that displays the five most recent mock analyses in the current browser session. Keep existing behavior intact and add/update tests. Do not introduce a backend or database.

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "digitalagile"
+version = "0.2.0"
+description = "Reusable single-agent frontend engineer using Strands, hooks, tools and evaluations"
+requires-python = ">=3.11"
+dependencies = [
+  "strands-agents>=1.0,<2",
+  "python-dotenv>=1,<2",
+  "boto3>=1.35,<2",
+]
+
+[project.optional-dependencies]
+anthropic = ["strands-agents[anthropic]>=1.0,<2"]
+ollama = ["strands-agents[ollama]>=1.0,<2"]
+agentcore = ["bedrock-agentcore>=1,<2"]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+digitalagile = "frontend_agent.main:main"
+
+[tool.setuptools.packages.find]
+include = ["frontend_agent*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

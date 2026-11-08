@@ -1,0 +1,4 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; color: #1d2433; background: #f3f6fb; }
+main { max-width: 900px; padding: 32px; margin: 60px auto; }
+button, textarea, input { font: inherit; }

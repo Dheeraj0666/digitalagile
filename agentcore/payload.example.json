@@ -1,0 +1,4 @@
+{
+  "story": "Create a polished responsive React UI for text authorship analysis using a mocked backend response, uncertainty messaging, loading states, and a component test. Never claim to determine authorship reliably.",
+  "allow_network_install": true
+}
